@@ -56,6 +56,11 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+/**
+ * Exemple dels components BadgedBox, HorizontalDivider i VerticalDivider
+ * @author RIS
+ * @since 4-11-2024
+ */
 @Composable
 fun BadgeBoxDemo(modifier: Modifier = Modifier) {
     var likes: Int by remember { mutableStateOf(997) }
